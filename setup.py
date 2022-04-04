@@ -11,14 +11,14 @@ setuptools.setup(
     description="A package for named entity authenticity querying",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/readchina/WikidataLookup",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "ReadChinaLookUp": "https://github.com/readchina/WikidataLookup/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        # "License :: OSI Approved :: MIT License",
+        # "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
